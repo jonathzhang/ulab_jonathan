@@ -1,0 +1,26 @@
+1. Pwd
+2. Ls ~music 
+3. To open with nano: nano ~/music/patterns.txt
+   To open with vim: vim ~/music/patterns.txt
+4. cat ~/music/patterns.txt
+5. diff ~/music/patterns.txt ~/music/symmetry.txt
+6. mv ~/music/patterns.txt ~/math/calculus/
+7. rm ~/math/geometry/triangle.txt
+8. cd ../math
+9. git init ~/math
+10. git remote add origin <remote_repository_URL>
+11. cp ~/music/symmetry.txt ~/math/
+12. git status. Git won’t track symmetry.txt yet because it hasn’t been added to the staging area.
+13. For symmetry.txt only: git add symmetry.txt
+    For all files and directories: git add .
+14. Git will track symmetry.txt once it’s staged.
+15. git commit -m "Commit message"
+16. git push origin main. Main (or master) is usually the primary branch for remote pushes.
+17. git branch applied_math
+18. git checkout applied_math
+19. git add . && git commit -m "Add physics with mechanics" && git push origin applied_math. If you switch branches before committing, changes will be in an uncommitted state and might not transfer.
+20. git branch
+21. git checkout main or git checkout master
+22. git merge applied_math
+
+
